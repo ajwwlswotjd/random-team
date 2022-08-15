@@ -1,0 +1,36 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import './variables.styl'
+
+*
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: NotoSansCJKkr, "Noto Sans KR", sans-serif;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+
+html, body
+    width: 100%
+    height: 100vh
+    background: $background
+
+#root
+    width: 100%
+    height: 100%
+
+.ic
+    position: relative
+    background-size: cover
+
+.shadow
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+
+.overlay-shadow
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.16);
+
+a 
+  text-decoration none

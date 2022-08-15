@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "checkJs": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": [ "./src/assets/*" ],
+      "@models/*": [ "./src/models/*" ],
+      "@components/*": [ "./src/components/*"],
+      "@css/*": ["./src/css/*"],
+      "@redux/*": ["./src/redux/*"],
+      "@core/*": ["./src/components/core/*"],
+      "@plugins/*": ["./src/plugins/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@api/*": ["./src/api/*"],
+    },
+    "typeRoots": ["./types", "./node_modules/@types"],
+  },
+  "include": ["src", "custom.d.ts"]
+}

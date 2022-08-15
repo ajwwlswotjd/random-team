@@ -1,0 +1,4 @@
+export enum MapTypes {
+  SET_DATA = 'MAP/SET_MAP_DATA',
+  TOGGLE_DISABLE_MAP = 'MAP/TOGGLE_DISABLE_MAP',
+}
